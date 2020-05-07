@@ -1,0 +1,7 @@
+{% extends "blogapp/base.html" %}
+{% block title %}My Blog{% endblock %}
+    {% block content %}
+        <h1>{{ post.title }}</h1>
+        <p>Published {{ post.created }}</p>
+        <p>{{ post.body|linebreaks }}</p>
+    {% endblock %}
