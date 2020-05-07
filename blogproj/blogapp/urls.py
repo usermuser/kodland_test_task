@@ -3,6 +3,10 @@ from . import views
 
 app_name = 'blogapp'
 urlpatterns = [
-    path('', views.PostsView.as_view(), name='posts'),
-    path('<int:pk>/', views.DetailView.as_view(), name='detail'),
+    path('posts/', views.PostsView.as_view(), name='posts'),
+    path('posts/<int:pk>/', views.DetailView.as_view(), name='detail'),
+    path('posts/create/', views.PostCreate.as_view(), name='create_post'),
+    path('posts/update/<int:pk>/', views.PostUpdate.as_view(), name='update_post'),
+    path('posts/delete/<int:pk>/', views.PostDelete.as_view(), name='delete_post'),
+
 ]
