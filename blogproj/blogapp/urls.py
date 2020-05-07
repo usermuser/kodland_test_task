@@ -3,6 +3,7 @@ from . import views
 
 app_name = 'blogapp'
 urlpatterns = [
+    path('', views.redirect_to_posts, name='redirect_to_posts'),
     path('posts/', views.PostsView.as_view(), name='posts'),
     path('posts/<int:pk>/', views.DetailView.as_view(), name='detail'),
     path('posts/create/', views.PostCreate.as_view(), name='create_post'),

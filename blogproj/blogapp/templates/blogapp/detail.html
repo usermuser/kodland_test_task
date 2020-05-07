@@ -4,4 +4,5 @@
         <h1>{{ post.title }}</h1>
         <p>Published {{ post.created }}</p>
         <p>{{ post.body|linebreaks }}</p>
+        <h2><a href="{% url 'blogapp:posts' %}">Posts list</a></h2>
     {% endblock %}

@@ -1,8 +1,13 @@
-from django.urls import reverse_lazy
+from django.urls import reverse_lazy, reverse
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
 from django.views import generic
+from django.shortcuts import redirect
 
 from .models import Post
+
+
+def redirect_to_posts(request):
+    return redirect('blogapp:posts', permanent=True)
 
 
 class PostsView(generic.ListView):

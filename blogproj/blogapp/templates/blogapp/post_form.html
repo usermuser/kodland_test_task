@@ -1,5 +1,4 @@
 {% extends "blogapp/base.html" %}
-{% load_static %}
 
 {% block title %}My Blog{% endblock %}
 
@@ -7,7 +6,7 @@
 
         <form class="form-horizontal" method="post" enctype="multipart/form-data">
             {% csrf_token %}
-            {{ update_form.as_p }}
+            {{ form.as_p }}
             <input class="form-control" type="submit" value="сохранить">
         </form>
 
