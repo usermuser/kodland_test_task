@@ -4481,7 +4481,7 @@ nav .input-field label.active i {
     border: 2px;
   }
   .navbar-fixed {
-    height: 64px;
+    height: 102px;
   }
 }
 
@@ -9093,8 +9093,16 @@ input[type=range]::-ms-thumb {
   top: 14px;
 }
 
-.blog-link {position: absolute;width: 50px;height: 31px;left: 196px;top: 41px;font-family: 'Balsamiq Sans', cursive;font-size: 24px;line-height: 31px;
-/* identical to box height */color: #010101;}
+.blog-link {
+position: absolute;
+width: 50px;
+height: 31px;
+left: 196px;
+top: 41px;
+font-family: 'Balsamiq Sans', cursive;font-size: 24px;
+line-height: 31px;
+color: #010101;
+}
 
 .email {
 position: absolute;
@@ -9107,3 +9115,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 .uchenik {position: absolute;width: 70px;height: 70px;right: 98px;top: 18px;border: 3px solid black;border-radius: 50%;}
 
 .logout {position: absolute;width: 31px;height: 31px;right: 51px;top: 37px;}
+
+.class new {
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: -0.416667px;
+color: #E9399C;
+}
