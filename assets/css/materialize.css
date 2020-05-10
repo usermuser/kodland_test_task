@@ -9114,7 +9114,13 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .uchenik {position: absolute;width: 70px;height: 70px;right: 98px;top: 18px;border: 3px solid black;border-radius: 50%;}
 
-.logout {position: absolute;width: 31px;height: 31px;right: 51px;top: 37px;}
+.logout {
+position: absolute;
+width: 31px;
+height: 31px;
+right: 51px;
+top: 37px;
+}
 
 .class new {
 font-size: 16px;
