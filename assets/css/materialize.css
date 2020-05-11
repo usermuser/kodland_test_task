@@ -9111,25 +9111,65 @@ height: 32px;
 right: 184px;
 top: 32px;
 transform: matrix(-1, 0, 0, 1, 0, 0);
+}.uchenik {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  right: 98px;
+  top: 18px;
+  border: 3px solid black;
+  border-radius: 50%;
 }
-.uchenik {position: absolute;width: 70px;height: 70px;right: 98px;top: 18px;border: 3px solid black;border-radius: 50%;}
 
 .logout {
-position: absolute;
-width: 31px;
-height: 31px;
-right: 51px;
-top: 37px;
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  right: 51px;
+  top: 37px;
 }
 
-#new {text-transform: uppercase;font-size: 16px;line-height: 20px;/* display: flex; */align-items: center;letter-spacing: -0.416667px;color: #E9399C;}
-
-.mt-20 {
-margin-top: 20px;
+#new {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.416667px;
+  color: #E9399C;
 }
 
-ul.horizontal {display: flex;align-items: center;justify-content: space-evenly;list-style: arabic-indic;}
+.badges {
+  display: block;
+  margin: 20px 0px;
+  width: 210px;
+}
 
-ul.horizontal li {
-display: inline;
+ul.horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.horizontal li span {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.416667px;
+  color: #CDCDCD;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.box {
+display:flex;
+flex-direction: column;
+}
+
+.post-title {
+display: block;
+}
+
+.post-body {
+display: block;
+}
+
+.button-read {
+display: block;
 }
